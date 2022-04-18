@@ -1,0 +1,14 @@
+:root {
+
+    /* Cores */
+
+    --branco: hsl(0, 0%, 100%);
+    --azul-fraco: hsl(212, 45%, 89%);
+    --azul-medio: hsl(220, 15%, 55%);
+    --azul-forte: hsl(218, 44%, 22%);
+
+    /* Fonts */
+
+    --peso-baixo: 400;
+    --peso-alto: 600;
+}

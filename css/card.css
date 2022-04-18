@@ -1,0 +1,45 @@
+.container__geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing:border-box;
+}
+
+.container__card {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco);
+    padding: 1.3rem;
+    border-radius: 15px 15px;
+    box-sizing: border-box;
+}
+
+.imagem__qr-code {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px;
+    
+}
+
+.titulo__qr-code {
+    width: 95%;
+    font-size: 1.18rem;
+    font-weight: var(--peso-alto);
+    color: var(--azul-forte);
+    text-align: center;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.paragrafo__qr-code {
+    width: 100%;
+    font-weight: var(--peso-baixo);
+    line-height: 1.5rem;
+    color: var(--azul-medio);
+    text-align: center;
+}
